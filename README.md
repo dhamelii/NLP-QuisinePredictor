@@ -8,7 +8,15 @@ PIPENV INSTALL {package_name}.
 
 {package_name} -nltk -numpy -spacy -pytest -argparse -re -commonregex -JSON
 
+------------------------------------------------------
+PROGRAM FUNCTIONALITY
 
+
+
+https://user-images.githubusercontent.com/120272276/234464813-8ac4f6ba-bc47-4f5a-90bc-b887bd67c80c.mov
+
+
+------------------------------------------------------
 HOW TO RUN PROJECT 2
 
 To run this program, there is an already extensive JSON database of cuisines and ingredients listed in the file 'yummly.json' located in the
@@ -28,7 +36,7 @@ of the --ingredients flag. For example, to input three ingredients, the user sha
 For the --ingredient flag, if the ingredient input is one word i.e paprika, no quotes are required. If the ingredient input is multiple words
 i.e "tomato paste" the user shall use quotations around the word string.
 
-
+------------------------------------------------------
 PROGRAM OVERVIEW
 
 The Cuisine Predictor program takes inputs from the user and gives the most similar cuisine type based on this input as well as returns a specific
@@ -62,7 +70,7 @@ Upon executing the command, the program will perform the following:
    N number of dishes.
 10) The program will now print the cuisine type and N dishes to the user in JSON format.
 
-
+------------------------------------------------------
 TEST OVERVIEW
 
 To test functionality of the program, I took the most critical functions and recreated them in the test_project2.py file. As the program is not built
@@ -75,7 +83,7 @@ The functions tested are:
 4) Calculate similarity score for cuisine
 5) Calulate similarity score for dish within a specific cuisine type.
 
-
+------------------------------------------------------
 COLLABORATIONS
 
 As found in the COLLABORATORS file, I used the following resorces for this project.
@@ -88,7 +96,7 @@ Convert JSON to dictionary in Python | https://www.geeksforgeeks.org/convert-jso
 Python Dictionary Append: How to Add Key / Value Pair | https://www.guru99.com/python-dictionary-append.html | Accessed for a better understanding of w>
 Sort Dictionary by Value in Python | https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/ | Used to enable sorting within a dictionary>
 
-
+------------------------------------------------------
 BUGS AND ASSUMPTIONS
 
 In the project, I did not use methods but yet built a program that will run sequentially without needing to call methods. This works well for the
